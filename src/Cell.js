@@ -10,8 +10,8 @@ export default class Cell extends Component {
   }
 
   handleClick = () => {
-    const newColor = this.props.getSelectedColor() // Matrix method (got using props)
-    this.setState({
+    const newColor = this.props.getSelectedColor() // Matrix method 
+    this.setState({                                // without passing the value explicitly as a prop
       color: newColor
     })
   }
