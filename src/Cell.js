@@ -22,7 +22,7 @@ export default class Cell extends Component {
     return (
       <div className="cell"
       style={{backgroundColor: this.state.color}}
-      { this.handleClick}>
+      onClick={this.handleClick}>
       </div>
     )
   }
