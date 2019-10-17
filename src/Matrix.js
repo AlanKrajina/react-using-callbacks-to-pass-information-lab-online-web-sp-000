@@ -26,7 +26,8 @@ export default class Matrix extends Component {
     })
   }
 
-
+  getSelectedColor = () => (this.state.selectedColor)
+// access the currently selected color from Matrix and pass to Cell
   render() {
     return (
       <div id="app">
