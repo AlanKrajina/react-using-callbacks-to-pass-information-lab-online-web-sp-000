@@ -22,7 +22,7 @@ export default class Matrix extends Component {
 
   selector = (col) => {
     this.setState({
-      color: col
+      selectedColor: col
     })
   }
 
