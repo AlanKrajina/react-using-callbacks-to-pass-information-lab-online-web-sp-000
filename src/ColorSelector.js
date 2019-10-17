@@ -15,7 +15,7 @@ export default class ColorSelector extends Component {
       </div>
 
       <div onClick={this.increment}>
-      {this.state.count}
+        {this.state.count}
       </div>
     )
   }
