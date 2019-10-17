@@ -30,7 +30,7 @@ export default class Matrix extends Component {
   render() {
     return (
       <div id="app">
-        <ColorSelector selector={this.selector}/>
+        <ColorSelector selector={this.selector}/>   // giving child a parent method
         <div id="matrix">
           {this.genMatrix()}
         </div>
